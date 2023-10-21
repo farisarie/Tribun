@@ -12,13 +12,13 @@ final class HomeViewController: UIViewController {
     
     @IBOutlet weak var newsButtonStack: UIStackView!
     
-    var currentSelectedButton: SelectedButton?
-    var news: [Datum]?
-    var categoryNewsMapping: [String: [Datum]] = [:]
+    private var currentSelectedButton: SelectedButton?
+    private var news: [Datum]?
+    private var categoryNewsMapping: [String: [Datum]] = [:]
     
     @IBOutlet weak var tableView: UITableView!
     
-    var categories: [String] = [
+    private var categories: [String] = [
         "All",
         "Bisnis",
         "Bola % Sports",

@@ -16,7 +16,7 @@ final class DetailViewController: UIViewController {
     @IBOutlet weak var titleDetail: UILabel!
     @IBOutlet weak var authorDetail: UILabel!
     @IBOutlet weak var imageDetail: UIImageView!
-    var news: Datum?
+     var news: Datum?
     
     override func viewDidLoad() {
         super.viewDidLoad()
