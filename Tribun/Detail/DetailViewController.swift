@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher
 
-class DetailViewController: UIViewController {
+final class DetailViewController: UIViewController {
 
     @IBOutlet weak var categoryDetail: UILabel!
     @IBOutlet weak var dateDetail: UILabel!

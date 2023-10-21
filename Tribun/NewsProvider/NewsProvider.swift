@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-class NewsProvider {
+final class NewsProvider {
     static var shared: NewsProvider = NewsProvider()
     private init() {}
     

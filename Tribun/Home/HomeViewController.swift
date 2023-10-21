@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher
 
-class HomeViewController: UIViewController {
+final class HomeViewController: UIViewController {
     
     @IBOutlet weak var newsButtonStack: UIStackView!
     

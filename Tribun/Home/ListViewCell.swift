@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ListViewCell: UITableViewCell {
+final class ListViewCell: UITableViewCell {
 
     @IBOutlet weak var newsDate: UILabel!
     @IBOutlet weak var newsAuthor: UILabel!
